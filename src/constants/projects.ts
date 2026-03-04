@@ -6,7 +6,7 @@ export const projects: Project[] = [
     role: "Full Stack SaaS Platform",
     summary:
       "A marketplace sync engine for online sellers that pulls large volumes of transactions and turns them into tax ready financial insight.",
-    imageSrc: "/market-tax-pro.png",
+    imageSrc: "public/market-tax-pro.png",
     imageAlt: "MarketTaxPro dashboard screenshot",
     imageOrientation: "landscape",
     stack: ["Next.js", "TypeScript", "Supabase", "OAuth 2.0 + PKCE"],
@@ -27,7 +27,7 @@ export const projects: Project[] = [
     role: "Mobile First Health Platform",
     summary:
       "A guided healthcare tracking app for caregivers with structured logging, insights, and a scalable architecture for future medical expansion.",
-    imageSrc: "/g.r.a.c.e.png",
+    imageSrc: "public/g.r.a.c.e.png",
     imageAlt: "G.R.A.C.E mobile app screenshot",
     imageOrientation: "portrait",
     stack: ["React Native", "Expo", "Supabase Auth", "TanStack Query"],
@@ -48,7 +48,7 @@ export const projects: Project[] = [
     role: "Data Search Platform",
     summary:
       "A lightweight registry interface backed by a clean REST architecture focused on fast filtering, stable modeling, and clear UX.",
-    imageSrc: "/company-registry-lite.png",
+    imageSrc: "public/company-registry-lite.png",
     imageAlt: "Company Registry Lite application screenshot",
     imageOrientation: "landscape",
     stack: ["NextJS", "Node.js", "Express", "PostgreSQL"],
