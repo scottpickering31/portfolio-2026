@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { skills } from "./constants/skills";
 import { projects } from "./constants/projects";
 import { stats } from "./constants/stats";
+import headshot from "./assets/scott-pickering-headshot.jpeg";
 
 export default function App() {
   const [scrollY, setScrollY] = useState(0);
@@ -82,7 +83,7 @@ export default function App() {
           <div className="about-layout mt-5">
             <div className="about-headshot-wrap">
               <img
-                src="src/assets/scott-pickering-headshot.jpeg"
+                src={headshot}
                 alt="Scott Pickering headshot"
                 className="about-headshot"
               />
