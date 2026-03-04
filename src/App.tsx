@@ -82,7 +82,7 @@ export default function App() {
           <div className="about-layout mt-5">
             <div className="about-headshot-wrap">
               <img
-                src="/scott-pickering-headshot.jpeg"
+                src="src/assets/scott-pickering-headshot.jpeg"
                 alt="Scott Pickering headshot"
                 className="about-headshot"
               />
