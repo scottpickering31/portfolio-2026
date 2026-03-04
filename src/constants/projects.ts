@@ -7,7 +7,7 @@ export const projects: Project[] = [
     summary:
       "A marketplace sync engine for online sellers that pulls large volumes of transactions and turns them into tax ready financial insight.",
     imageSrc: "src/assets/market-tax-pro.png",
-    imageAlt: "MarketTaxPro dashboard screenshot",
+    imageAlt: "MarketTaxPro dashboard's screenshot",
     imageOrientation: "landscape",
     stack: ["Next.js", "TypeScript", "Supabase", "OAuth 2.0 + PKCE"],
     highlights: [
