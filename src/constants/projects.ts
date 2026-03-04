@@ -1,4 +1,7 @@
 import type { Project } from "../types/Projects";
+import marketTaxProImg from "../assets/market-tax-pro.png";
+import graceImg from "../assets/g.r.a.c.e.png";
+import companyRegistryLiteImg from "../assets/company-registry-lite.png";
 
 export const projects: Project[] = [
   {
@@ -6,7 +9,7 @@ export const projects: Project[] = [
     role: "Full Stack SaaS Platform",
     summary:
       "A marketplace sync engine for online sellers that pulls large volumes of transactions and turns them into tax ready financial insight.",
-    imageSrc: "src/assets/market-tax-pro.png",
+    imageSrc: marketTaxProImg,
     imageAlt: "MarketTaxPro dashboard screenshot",
     imageOrientation: "landscape",
     stack: ["Next.js", "TypeScript", "Supabase", "OAuth 2.0 + PKCE"],
@@ -27,7 +30,7 @@ export const projects: Project[] = [
     role: "Mobile First Health Platform",
     summary:
       "A guided healthcare tracking app for caregivers with structured logging, insights, and a scalable architecture for future medical expansion.",
-    imageSrc: "src/assets/g.r.a.c.e.png",
+    imageSrc: graceImg,
     imageAlt: "G.R.A.C.E mobile app screenshot",
     imageOrientation: "portrait",
     stack: ["React Native", "Expo", "Supabase Auth", "TanStack Query"],
@@ -48,7 +51,7 @@ export const projects: Project[] = [
     role: "Data Search Platform",
     summary:
       "A lightweight registry interface backed by a clean REST architecture focused on fast filtering, stable modeling, and clear UX.",
-    imageSrc: "src/assets/company-registry-lite.png",
+    imageSrc: companyRegistryLiteImg,
     imageAlt: "Company Registry Lite application screenshot",
     imageOrientation: "landscape",
     stack: ["NextJS", "Node.js", "Express", "PostgreSQL"],
