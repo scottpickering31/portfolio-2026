@@ -34,7 +34,7 @@ export const projects: Project[] = [
     highlights: [
       "Deep link aware auth flows for cold and hot app starts",
       "Multi step onboarding with schema driven validation",
-      "Video enabled seizure logging and profile aware caching strategy",
+      "Linked health data for insights and analytics",
     ],
     accent: "from-amber-300 to-orange-400",
     status: "HealthTech",
