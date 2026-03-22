@@ -5,27 +5,6 @@ import companyRegistryLiteImg from "../assets/company-registry-lite.png";
 
 export const projects: Project[] = [
   {
-    name: "MarketTaxPro",
-    role: "Full Stack SaaS Platform",
-    summary:
-      "A marketplace sync engine for online sellers that pulls large volumes of transactions and turns them into tax ready financial insight.",
-    imageSrc: marketTaxProImg,
-    imageAlt: "MarketTaxPro dashboard screenshot",
-    imageOrientation: "landscape",
-    stack: ["Next.js", "TypeScript", "Supabase", "OAuth 2.0 + PKCE"],
-    highlights: [
-      "Secure eBay OAuth integration with token refresh automation",
-      "Background syncing for a full tax year of orders, fees, and payouts",
-      "Normalized schema optimized for high volume multi tenant data",
-    ],
-    accent: "from-cyan-400 to-sky-400",
-    status: "SaaS",
-    live_href: "https://markettaxpro.com",
-    source_href: "https://github.com/scottpickering31/markettaxpro",
-    readme_href:
-      "https://github.com/scottpickering31/markettaxpro/blob/main/README.md",
-  },
-  {
     name: "G.R.A.C.E",
     role: "Mobile First Health Platform",
     summary:
@@ -41,7 +20,7 @@ export const projects: Project[] = [
     ],
     accent: "from-amber-300 to-orange-400",
     status: "HealthTech",
-    live_href: "https://markettaxpro.com",
+    live_href: "https://play.google.com/store/apps?hl=en_GB",
     source_href: "https://github.com/scottpickering31/G.R.A.C.E",
     readme_href:
       "https://github.com/scottpickering31/G.R.A.C.E/blob/main/README.md",
@@ -66,5 +45,26 @@ export const projects: Project[] = [
     source_href: "https://github.com/scottpickering31/company-registry-lite",
     readme_href:
       "https://github.com/scottpickering31/company-registry-lite/blob/main/README.md",
+  },
+  {
+    name: "MarketTaxPro",
+    role: "Full Stack SaaS Platform",
+    summary:
+      "A marketplace sync engine for online sellers that pulls large volumes of transactions and turns them into tax ready financial insight.",
+    imageSrc: marketTaxProImg,
+    imageAlt: "MarketTaxPro dashboard screenshot",
+    imageOrientation: "landscape",
+    stack: ["Next.js", "TypeScript", "Supabase", "OAuth 2.0 + PKCE"],
+    highlights: [
+      "Secure eBay OAuth integration with token refresh automation",
+      "Background syncing for a full tax year of orders, fees, and payouts",
+      "Normalized schema optimized for high volume multi tenant data",
+    ],
+    accent: "from-cyan-400 to-sky-400",
+    status: "SaaS",
+    live_href: "https://markettaxpro.com",
+    source_href: "https://github.com/scottpickering31/markettaxpro",
+    readme_href:
+      "https://github.com/scottpickering31/markettaxpro/blob/main/README.md",
   },
 ];
