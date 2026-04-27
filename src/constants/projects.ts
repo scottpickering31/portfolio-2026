@@ -1,5 +1,5 @@
 import type { Project } from "../types/Projects";
-import marketTaxProImg from "../assets/market-tax-pro.png";
+import resellicoImg from "../assets/resellico.png";
 import graceImg from "../assets/g.r.a.c.e.png";
 import companyRegistryLiteImg from "../assets/company-registry-lite.png";
 
@@ -26,6 +26,26 @@ export const projects: Project[] = [
       "https://github.com/scottpickering31/G.R.A.C.E/blob/main/README.md",
   },
   {
+    name: "Resellico",
+    role: "Full Stack SaaS Platform",
+    summary:
+      "A marketplace sync engine for online sellers that allows users to generate listings cross-platform for multiple marketplaces, track sales, and manage inventory.",
+    imageSrc: resellicoImg,
+    imageAlt: "Resellico dashboard screenshot",
+    imageOrientation: "landscape",
+    stack: ["Next.js", "TypeScript", "Supabase", "OAuth 2.0 + PKCE"],
+    highlights: [
+      "Secure Marketplace OAuth integration with token refresh automation",
+      "",
+      "",
+    ],
+    accent: "from-cyan-400 to-sky-400",
+    status: "SaaS",
+    live_href: "https://resellico.com",
+    source_href: "https://github.com/scottpickering31",
+    readme_href: "https://github.com/scottpickering31",
+  },
+  {
     name: "Company Registry Lite",
     role: "Data Search Platform",
     summary:
@@ -45,26 +65,5 @@ export const projects: Project[] = [
     source_href: "https://github.com/scottpickering31/company-registry-lite",
     readme_href:
       "https://github.com/scottpickering31/company-registry-lite/blob/main/README.md",
-  },
-  {
-    name: "MarketTaxPro",
-    role: "Full Stack SaaS Platform",
-    summary:
-      "A marketplace sync engine for online sellers that pulls large volumes of transactions and turns them into tax ready financial insight.",
-    imageSrc: marketTaxProImg,
-    imageAlt: "MarketTaxPro dashboard screenshot",
-    imageOrientation: "landscape",
-    stack: ["Next.js", "TypeScript", "Supabase", "OAuth 2.0 + PKCE"],
-    highlights: [
-      "Secure eBay OAuth integration with token refresh automation",
-      "Background syncing for a full tax year of orders, fees, and payouts",
-      "Normalized schema optimized for high volume multi tenant data",
-    ],
-    accent: "from-cyan-400 to-sky-400",
-    status: "SaaS",
-    live_href: "https://markettaxpro.com",
-    source_href: "https://github.com/scottpickering31/markettaxpro",
-    readme_href:
-      "https://github.com/scottpickering31/markettaxpro/blob/main/README.md",
   },
 ];
