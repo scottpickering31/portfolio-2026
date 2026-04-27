@@ -246,14 +246,11 @@ export default function App() {
           <p className="caps-line">Tooling</p>
           <h2 className="section-heading">Technical Stack</h2>
           <div className="mt-6 flex flex-wrap gap-3">
-            {skills.map((skill, index) => (
-              <span
-                key={skill}
-                className="floating-chip reveal"
-                style={{ animationDelay: `${index * 40}ms` }}
-              >
-                {skill}
-              </span>
+            {skills.map((skill) => (
+              <div key={skill.name}>
+                <img src={skill.icon} alt={`${skill.name} icon`} />
+                <span>{skill.name}</span>
+              </div>
             ))}
           </div>
         </section>

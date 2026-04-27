@@ -36,8 +36,8 @@ export const projects: Project[] = [
     stack: ["Next.js", "TypeScript", "Supabase", "OAuth 2.0 + PKCE"],
     highlights: [
       "Secure Marketplace OAuth integration with token refresh automation",
-      "",
-      "",
+      "Multi-marketplace listing sync and inventory management",
+      "Optional AI generated product descriptions and images",
     ],
     accent: "from-cyan-400 to-sky-400",
     status: "SaaS",
