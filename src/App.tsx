@@ -245,11 +245,22 @@ export default function App() {
         <section id="stack" className="mt-12 md:mt-16">
           <p className="caps-line">Tooling</p>
           <h2 className="section-heading">Technical Stack</h2>
-          <div className="mt-6 flex flex-wrap gap-3">
+          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {skills.map((skill) => (
-              <div key={skill.name}>
-                <img src={skill.icon} alt={`${skill.name} icon`} />
-                <span>{skill.name}</span>
+              <div
+                key={skill.name}
+                className="group flex min-h-32 cursor-pointer flex-col items-center justify-center gap-3 rounded-lg border border-white/15 bg-white/7 px-4 py-5 text-center transition duration-300 hover:-translate-y-1 hover:border-white/30 hover:bg-white/12"
+              >
+                <div className="flex h-16 w-16 items-center justify-center rounded-lg bg-white/92 p-3 shadow-lg shadow-sky-950/20">
+                  <img
+                    src={skill.icon}
+                    alt={`${skill.name} icon`}
+                    className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-115"
+                  />
+                </div>
+                <span className="text-sm font-medium text-white/86">
+                  {skill.name}
+                </span>
               </div>
             ))}
           </div>
